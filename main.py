@@ -1,6 +1,10 @@
-# Stage 1/7: No one is left behind!
+# Stage 2/7: Raising the bar
 mark_1 = float(input())
 mark_2 = float(input())
 mark_3 = float(input())
-print((mark_1 + mark_2 + mark_3) / 3)
-print("Congratulations, you are accepted!")
+mean = (mark_1 + mark_2 + mark_3) / 3
+print(mean)
+if mean >= 60:
+    print("Congratulations, you are accepted!")
+else:
+    print("We regret to inform you that we will not be able to offer you admission.")
